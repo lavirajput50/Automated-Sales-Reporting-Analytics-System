@@ -1,0 +1,12 @@
+# virtual enviroment 
+.venv/
+# sensitve credentials
+automation/user_data.json
+# vscode settings 
+.vscode/
+#python cache
+__pycache__,*.pyc
+src/tempCodeRunnerFile.py
+src/__pycache__/database.cpython-310.pyc
+automation/__pycache__/config.cpython-310.pyc
+reports/generated/test.txt

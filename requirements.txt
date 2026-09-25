@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly 
+openpyxl
+ipykernel
+statistics
+IPython
+scipy
+sqlalchemy
+fpdf2
+pypdf
+streamlit
