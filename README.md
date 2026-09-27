@@ -64,21 +64,22 @@ This is the part most portfolio projects skip. A Streamlit app handles the full 
 
 ---
 # Structure 
-'''text
+```text
 Automated-Sales-Reporting-Analytics/
-│── README.md
-│── .gitignore
-│── requirements.txt
-│── main.py                         
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── main.py
 │
 ├── dataset/
 │   ├── raw/
-│   └── clean_dataset1.xlsx/
-│   └──clean_dataset.csv/
+│   ├── clean_dataset1.xlsx
+│   └── clean_dataset.csv
 │
 ├── notebooks/
 │   ├── 01_data_profiling.ipynb
-│   ├── 02_data_validation&cleaning.ipynb
+│   ├── 02_data_validation_cleaning.ipynb
 │   ├── 03_outlier_detection.ipynb
 │   └── 04_eda.ipynb
 │
@@ -91,20 +92,20 @@ Automated-Sales-Reporting-Analytics/
 │   └── 06_reporting_queries.sql
 │
 ├── src/
-│   └── database.py                  # DB connection + fetch data functions
+│   └── database.py
 │
 ├── powerbi/
 │   ├── sales_dashboard.pbix
 │   └── screenshots/
 │
-├── reports/                
-│   └── generated/                   # Auto-generated reports save 
+├── reports/
+│   └── generated/
 │
 ├── automation/
 ├── report_generator.py          
 ├── email_report.py              
 └── config.py           
-'''
+```
 ---
 
 ## Key findings
