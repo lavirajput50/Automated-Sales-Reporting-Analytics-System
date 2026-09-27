@@ -64,6 +64,7 @@ This is the part most portfolio projects skip. A Streamlit app handles the full 
 
 ---
 # Structure 
+'''text
 Automated-Sales-Reporting-Analytics/
 │── README.md
 │── .gitignore
@@ -103,7 +104,7 @@ Automated-Sales-Reporting-Analytics/
 ├── report_generator.py          
 ├── email_report.py              
 └── config.py           
-
+'''
 ---
 
 ## Key findings
